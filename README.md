@@ -13,14 +13,14 @@ to obtain a copy of it for yourself.
 
 3. Examine `script.r` to see what packages the project depends on.
 
-4. Call `renv::snapshot()` to save the state of the project library 
-to the lockfile (called `renv.lock`).
+4. Run `renv::init()` to initialize a new project-local 
+environment with a private R library.
 
 5. Put the `.Rprofile`, `renv.lock` and `renv/activate.R` files under local 
 and remote version control.
 
 Examine the `renv.lock` file - 
-do the packages there match what you saw at the top of `script.r` - 
+do the packages there match what you saw at the top of `praise-the-learn.r` - 
 that's neat... How does that work???
 
 See the [dependency discovery section of the `renv` docs](https://rstudio.github.io/renv/articles/renv.html#dependency-discovery) to find out!
